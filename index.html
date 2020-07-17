@@ -6,16 +6,45 @@
             a {
                 text-decoration:none;
             }
+            * {
+                box-sizing: border-box;
+            }
+
+            /* Create two equal columns that floats next to each other */
+            .column {
+                float: left;
+                width: 50%;
+                padding: 0px;
+                height: 220px; /* Should be removed. Only for demonstration */
+            }
+
+            /* Clear floats after the columns */
+            .row:after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+
         </style>
     </head>
 </head>
 
 <body class="style5" background="./Surjya_Ghosh_files/bg.png"><font size="4">
-    <h1 align="left"><img src="./Surjya_Ghosh_files/me_bw.jpg" alt="Surjya Ghosh" width="110" height="160" hspace="10" align="right">   <a name="Top"></a><strong>Surjya Ghosh</strong></h1>
+    <div class="row">
+        <div class="column" style="background-color:#fff;">
+            <h1 align="left"><strong>Surjya Ghosh</strong></h1>
+            <p align="justify">Postdoctoral Researcher <br> Centrum Wiskunde & Informatica <br> Amsterdam, The Netherlands <br> Email: surjya [dot] ghosh [AT] gmail [dot] com  </p>
+        </div>
+        <div class="column" style="background-color:#fff;">
+            <p align="right"><a href="https://surjya-ghosh.github.io/#publications"><strong>Publications</strong></a> | <a href=Surjya_Ghosh_files/resume/SurjyaGhosh_CV.pdf><strong>Resume</strong></a> | <a href="https://surjya-ghosh.github.io/#achievements"><strong>Achievements</strong></a> | <a href="https://surjya-ghosh.github.io/#experience"><strong>Experience</strong></a> |  <a href="https://surjya-ghosh.github.io/#profservices"><strong>Professional Services</strong></a> </p>
+            <img src="./Surjya_Ghosh_files/me_bw.jpg" alt="Surjya Ghosh" width="110" height="160" hspace="10" align="right">
+        </div>
+    </div>
+    <!--h1 align="left"><img src="./Surjya_Ghosh_files/me_bw.jpg" alt="Surjya Ghosh" width="110" height="160" hspace="10" align="right"><a name="Top"></a><strong>Surjya Ghosh</strong></h1-->
     <!--h3 align="left" hspace="10">Postdoctoral Researcher</h3>
     <h3 align="left" hspace="10">Centrum Wiskunde & Informatica</h3>
     <h3 align="left" hspace="10">Amsterdam, The Netherlands</h3-->
-    <p align="justify">Postdoctoral Researcher <br> Centrum Wiskunde & Informatica <br> Amsterdam, The Netherlands <br> Email: surjya [dot] ghosh [AT] gmail [dot] com  </p>
+    <!--p align="justify">Postdoctoral Researcher <br> Centrum Wiskunde & Informatica <br> Amsterdam, The Netherlands <br> Email: surjya [dot] ghosh [AT] gmail [dot] com  </p-->
     <hr align="JUSTIFY">
     <!--h3 align="left" hspace="10">About me</h3-->
     <!--p align="justify" hspace="10">I am a Postdoctoral researcher in the <a href="https://www.dis.cwi.nl/">Distributed and Interactive Systems (DIS)</a> group of <a href="https://www.cwi.nl/">CWI Amsterdam</a>, since  Aug 2019. My supervisors are <a href="https://www.pablocesar.me/">Prof. Pablo Cesar </a> and <a href="https://abdoelali.com/">Dr. Abdallah El Ali</a>. Prior to this, I did my Ph.D. from the <a href="http://cse.iitkgp.ac.in/"> Department of Computer Science and Engineering</a> of <a href="http://www.iitkgp.ac.in/">IIT Kharagpur</a>, India. My PhD supervisors were <a href="http://cse.iitkgp.ac.in/~bivasm/">Prof. Bivas Mitra </a> and <a href="http://www.facweb.iitkgp.ac.in/~niloy/">Prof. Niloy Ganguly</a>. My research interests are in the area of Affective Computing and Human-Computer Interaction. Before joining PhD, I have worked at several IT oragnizations (<a href="https://www.tcs.com/">TCS</a>, <a href="https://www.ibm.com/in-en">IBM</a>, <a href="http://in.capgemini.com/">Capgemini</a>) for more than 10 years.</p-->
@@ -28,8 +57,8 @@
 
     <!--p align="left"><a href="http://cse.iitkgp.ac.in/~surjya.ghosh/#research"><strong>Research</strong></a> | <a href="http://cse.iitkgp.ac.in/~surjya.ghosh/#publications"><strong>Publications</strong></a> | <a href="http://cse.iitkgp.ac.in/~surjya.ghosh/projects.html"><strong>Projects</strong></a> | <a href="http://cse.iitkgp.ac.in/~surjya.ghosh/#academics"><strong>Academics</strong></a> | <a href="http://cse.iitkgp.ac.in/~surjya.ghosh/#experience"><strong>Experience</strong></a> | <a href="http://cse.iitkgp.ac.in/~surjya.ghosh/#achievements"><strong>Achievements</strong></a> | <a href="http://cse.iitkgp.ac.in/~surjya.ghosh/_resume/SurjyaGhosh_CV.pdf"><strong>Resume</strong></a> | <a href="http://cse.iitkgp.ac.in/~surjya.ghosh/#contact"><strong>Contact</strong></a> </p-->
     <!--p-- align="left"><a href="https://surjya-ghosh.github.io/#research"><strong>Research</strong></a> | <a href="https://surjya-ghosh.github.io/#publications"><strong>Publications</strong></a> | <a href=Surjya_Ghosh_files/resume/SurjyaGhosh_CV.pdf><strong>Resume</strong></a> | <a href="https://surjya-ghosh.github.io/#experience"><strong>Experience</strong></a> | <a href="https://surjya-ghosh.github.io/#achievements"><strong>Achievements</strong></a> </p-->
-    <p align="left"><a href="https://surjya-ghosh.github.io/#publications"><strong>Publications</strong></a> | <a href=Surjya_Ghosh_files/resume/SurjyaGhosh_CV.pdf><strong>Resume</strong></a> | <a href="https://surjya-ghosh.github.io/#achievements"><strong>Achievements</strong></a> | <a href="https://surjya-ghosh.github.io/#experience"><strong>Experience</strong></a> |  <a href="https://surjya-ghosh.github.io/#profservices"><strong>Professional Services</strong></a> </p>
-    <hr align="JUSTIFY">
+    <!--p align="left"><a href="https://surjya-ghosh.github.io/#publications"><strong>Publications</strong></a> | <a href=Surjya_Ghosh_files/resume/SurjyaGhosh_CV.pdf><strong>Resume</strong></a> | <a href="https://surjya-ghosh.github.io/#achievements"><strong>Achievements</strong></a> | <a href="https://surjya-ghosh.github.io/#experience"><strong>Experience</strong></a> |  <a href="https://surjya-ghosh.github.io/#profservices"><strong>Professional Services</strong></a> </p-->
+    <!--hr align="JUSTIFY"-->
 
 
     <p align="left" style="color:red"><strong>NEWS</strong></p>
